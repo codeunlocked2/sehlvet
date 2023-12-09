@@ -525,3 +525,94 @@ header {
     height: 100%;
     object-fit: cover;
 }
+
+
+
+/* ========================== Testimonials ============================= */
+
+.client__info {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 36px;
+    position: relative;
+}
+
+.client__review {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.client__review .quotes img {
+    margin-top: 2rem;
+    width: 54px;
+    height: auto;
+}
+
+
+.review p {
+    text-align: left;
+    width: 65%;
+    padding-top: 51px;
+    font-size: 16px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.name__profession {
+    padding-top: 40px;
+}
+
+
+.name__profession h4 {
+    font-size: var(--fs-4);
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.name__profession p {
+    font-size: 16px;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: start;
+}
+
+
+.buttons {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 120px;
+    height: 40px;
+}
+
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    content: '';
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    width: initial;
+    height: initial;
+    top: initial;
+}
+
+.swiper-button-prev {
+    left: calc(50% - 4rem);
+    padding: 14px 18px;
+    border: 2px solid var(--btn-color);
+    border-radius: 16px;
+    outline: none;
+}
+
+.swiper-button-next {
+    right: calc(50% - 3rem);
+    padding: 14px 18px;
+    border: 2px solid var(--btn-color);
+    border-radius: 16px;
+    outline: none;
+}
