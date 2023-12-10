@@ -72,13 +72,13 @@
 
     .navigation ul {
         display: flex;
-        width: 350px;
+        width: 400px;
     }
 
     .navigation ul li {
         position: relative;
         list-style: none;
-        width: 70px;
+        width: 85px;
         height: 60px;
         z-index: 1;
     }
@@ -436,13 +436,13 @@
 
     .navigation ul {
         display: flex;
-        width: 350px;
+        width: 400px;
     }
 
     .navigation ul li {
         position: relative;
         list-style: none;
-        width: 70px;
+        width: 85px;
         height: 60px;
         z-index: 1;
     }
@@ -757,13 +757,13 @@
 
     .navigation ul {
         display: flex;
-        width: 350px;
+        width: 400px;
     }
 
     .navigation ul li {
         position: relative;
         list-style: none;
-        width: 70px;
+        width: 85px;
         height: 60px;
         z-index: 1;
     }
