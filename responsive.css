@@ -1,0 +1,345 @@
+/* ================================= RESPONSIVE START ====================================== */
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 450px) {}
+
+
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 601px) and (max-width: 767px) {}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    :root {
+        --fs-1: 46px;
+        --fs-2: 40px;
+        --fs-3: 28px;
+        --fs-4: 16px;
+        --fs-5: 13px;
+        --fs-6: 12px;
+    }
+
+    /* ============================== HEADER ================================ */
+    .header .nav_items ul {
+        display: none;
+    }
+
+
+    /* ============================== HOME ================================ */
+
+    .home__content {
+        padding-top: 7rem;
+    }
+
+    .home__left .home__title {
+        line-height: 62px;
+    }
+
+    .home__left .home__button .left-icon img {
+        width: 40px;
+    }
+
+    .home__left .home__article {
+        word-wrap: break-word;
+        margin-bottom: 3rem;
+    }
+
+    .main__image__cover img {
+        width: 220px;
+    }
+
+    .main__image__cover {
+        bottom: -0.5rem;
+        left: 60px;
+    }
+
+    .home__right {
+        width: 270px;
+        height: 398px;
+    }
+
+    .main__image__bg {
+        left: 80px;
+    }
+
+    .main__image__bg img {
+        width: 190px;
+    }
+
+    .main-img img {
+        width: 280px;
+    }
+
+
+
+    /* ============================== TRENDING ================================ */
+    .tranding {
+        margin-top: 5rem;
+    }
+
+
+    .tranding__items {
+        padding-top: 0rem;
+        gap: 56px;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .tranding__one {
+        margin-top: 1rem;
+    }
+
+    .tranding_box 
+    {
+        width: 280px;
+    }
+
+    .tranding_box .model__img img {
+        width: 100%;
+    }
+
+
+    .view__all_btn {
+        bottom: 4rem;
+    }
+
+    /* ========================== Summer ============================= */
+
+    .summer {
+        margin-top: 1rem;
+    }
+
+    .summer__items__part {
+        flex-direction: column;
+        gap: 44px;
+    }
+
+
+    .summer__left {
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        gap: 24px;
+    }
+
+    .summer__left img {
+        width: 290px;
+        height: auto;
+    }
+
+    .summer__left p {
+        text-align: start;
+    }
+
+
+    .summer__right {
+        flex-direction: row;
+        align-items: start;
+        justify-content: center;
+        gap: 26px;
+    }
+
+    .summer_right_article {
+       margin-top: 3rem;
+    }
+
+    .summer__right_main_img img 
+    {
+        width: 280px;
+    }
+
+    .summer__right__overly_img img
+    {
+        width: 180px;
+    }
+
+    /* ================================== Winter ==================================== */
+
+    .winter {
+        margin-top: 10rem;
+    }
+
+    .winter__title {
+        align-items: start;
+    }
+
+    
+    .winter__items__part {
+        padding-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 36px;
+    }
+
+    .winter__left {
+        width: 100%;
+        align-items: end;
+        justify-content: center;
+    }
+
+    .winter__left p {
+        width: 90%;
+    }
+
+    .winter__right {
+        width: 100%;
+        gap: 2px;
+    }
+
+    .winter__right p {
+        width: 100%;
+    }
+
+    .winter__view__all_btn {
+        order: 1;
+    }
+    /* ================================== TESTIMONIAL ==================================== */
+
+    .testimonial {
+        margin-top: 6rem;
+    }
+    
+
+    .client_img img {
+        width: 200px;
+    }
+
+    .client__review .quotes img {
+        margin-top: 1rem;
+        width: 36px;
+    }
+
+    .review p {
+        text-align: left;
+        width: 80%;
+        padding-top: 36px;
+    }
+
+    .name__profession {
+        padding-top: 30px;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 1025px) and (max-width: 1199px) {
+    :root {
+        --fs-1: 66px;
+        --fs-2: 64px;
+        --fs-3: 32px;
+        --fs-4: 21px;
+        --fs-5: 15px;
+        --fs-6: 13px;
+    }
+
+    /* ============================== HOME ================================ */
+
+    .home__content {
+        padding-top: 3rem;
+    }
+
+
+    .main__image__cover img {
+        width: 390px;
+    }
+
+    .home__right {
+        position: relative;
+        width: 670px;
+        height: 768px;
+    }
+
+    .main__image__bg {
+        left: 160px;
+        z-index: -1;
+    }
+
+    .main__image__bg img {
+        width: 380px;
+    }
+
+    .main-img img {
+        width: 540px;
+    }
+
+    /* ============================== TRENDING ================================ */
+
+    .tranding__items {
+        gap: 46px;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .view__all_btn {
+        bottom: 4rem;
+    }
+
+    /* ================================== Winter ==================================== */
+
+    .winter__left {
+        width: 60%;
+    }
+
+    .winter__left p {
+        width: 100%;
+    }
+
+    .winter__right {
+        width: 40%;
+    }
+
+    .winter__right p {
+        width: 100%;
+    }
+
+    /* ================================== TESTIMONIAL ==================================== */
+
+    .client_img img {
+        width: 220px;
+    }
+
+    .client__review .quotes img {
+        margin-top: 1rem;
+        width: 36px;
+    }
+
+    .review p {
+        text-align: left;
+        width: 80%;
+        padding-top: 36px;
+    }
+
+    .name__profession {
+        padding-top: 30px;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 1200px) and (max-width: 1400px) {
+    :root {
+        --fs-1: 76px;
+        --fs-2: 64px;
+        --fs-3: 36px;
+        --fs-4: 24px;
+        --fs-5: 18px;
+        --fs-6: 16px;
+    }
+
+    /* ============================== TRENDING ================================ */
+
+    .tranding__items {
+        gap: 26px;
+    }
+}

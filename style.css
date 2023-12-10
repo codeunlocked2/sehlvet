@@ -150,6 +150,7 @@ header {
 
 
 .home__content {
+    padding-top: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -182,9 +183,9 @@ header {
 }
 
 
-.home__left .home__button .left-icon {
+.home__left .home__button .left-icon img{
     padding-left: 20px;
-    width: 34px;
+    width: 54px;
     height: 14px;
 }
 
@@ -337,7 +338,8 @@ header {
     padding-top: 3rem;
     display: flex;
     align-items: center;
-    justify-content: s;
+    justify-content: space-between;
+    gap: 24px;
 }
 
 .summer__left {
@@ -346,7 +348,6 @@ header {
     align-items: center;
     justify-content: center;
     gap: 36px;
-    width: 50%;
 }
 
 .summer__left img {
@@ -361,10 +362,9 @@ header {
 
 
 .summer__right {
-    width: 50%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     gap: 36px;
 }
@@ -481,8 +481,8 @@ header {
 
 
 
-/* ========================== Summer ============================= */
 
+/* ========================== Testimonials ============================= */
 
 .testimonial {
     margin-top: 10rem;
@@ -526,9 +526,10 @@ header {
     object-fit: cover;
 }
 
-
-
-/* ========================== Testimonials ============================= */
+.client_img img 
+{
+    width: 280px;
+}
 
 .client__info {
     display: flex;
@@ -556,7 +557,7 @@ header {
     text-align: left;
     width: 65%;
     padding-top: 51px;
-    font-size: 16px;
+    font-size: var(--fs-5);
     font-weight: 400;
     word-wrap: break-word;
 }
@@ -616,3 +617,66 @@ header {
     border-radius: 16px;
     outline: none;
 }
+
+
+
+/* ========================== Testimonials ============================= */
+
+.footer {
+    background: var(--btn-color);
+    padding: 46px;
+    color: var(--gry-color);
+}
+
+.footer__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo__copyright .logo {
+    font-size: var(--fs-4);
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.logo__copyright .copyright {
+    font-size: var(--fs-6);
+    padding-top: 4px;
+}
+
+.social_links {
+    display: flex;
+    align-items: self-start;
+    justify-content: flex-start;
+    gap: 24px;
+    padding-top: 24px;
+}
+
+
+.quick__links ul li,
+.contact_us_links ul li {
+    padding-block: 5px;
+}
+
+.quick__links ul li a,
+.contact_us_links ul li a {
+    color: var(--gry-color);
+    font-size: var(--fs-6);
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.quick__links ul li a:hover,
+.contact_us_links ul li a:hover {
+    opacity: 0.7;
+}
+
+.contact_us_links ul li h5 {
+    font-size: var(--fs-4);
+    font-weight: 500;
+}
+
+
+
+
